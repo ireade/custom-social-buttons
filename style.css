@@ -1,0 +1,51 @@
+.social-share-btns li.facebook { background-color: #3B5998; }
+.social-share-btns li.twitter { background-color: #4099FF; }
+.social-share-btns li.googleplus { background-color: #d34836; }
+.social-share-btns li.linkedin { background-color: #007bb6; }
+.social-share-btns li.pinterest { background-color: #cc2127; }
+.social-share-btns li.email { background-color: #9f9f9f; }
+.social-share-btns li.whatsapp { background-color: #60b82d; }
+
+.social-share-btns {
+	position: relative;
+	box-sizing: border-box;
+	height: 40px;
+}
+
+.social-share-btns li {
+	list-style-type: none;
+	display: inline-block;
+	vertical-align: top;
+	height: 100%;
+	width: 14.28%; /* 100 divided by the number of buttons */
+}
+
+.social-share-btns li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	text-align: center;
+
+	display: block;
+	height: 100%;
+	width: 100%;
+	padding-top: 9px;
+
+	transition: font-size 0.3s, padding-top 0.3s;
+}
+
+.social-share-btns li a:hover {
+	font-size: 24px;
+	padding-top: 5px;
+}
+
+
+.social-share-btns .share-text {
+	opacity: 0;
+	position: absolute;
+	clip: rect(1px 1px 1px 1px); /* syntax for IE6 & IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+}
+
+
+
